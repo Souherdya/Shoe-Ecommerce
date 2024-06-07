@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Information Form</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 400px;
+            width: 100%;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="checkbox"] {
+            width: auto;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="C:\Users\sampr\OneDrive\Desktop\programming and shit\Websites practice projects\myNodeProject\
+        upload2.html">
+            <div class="form-group">
+                <label for="manufacturer">Name of Manufacturer</label>
+                <input type="text" id="manufacturer" name="manufacturer" >
+            </div>
+            <div class="form-group">
+                <label for="location">Location of Purchase</label>
+                <input type="text" id="location" name="location">
+                <p>Or,</p>
+                <label for="online-purchase">Online Purchase
+                <input type="checkbox" id="online-purchase" name="online-purchase"></label>
+            </div>
+            <div class="form-group">
+                <label for="product-name">Name of the Product (Company Designation)</label>
+                <input type="text" id="product-name" name="product-name" >
+            </div>
+            <div class="form-group">
+                <label for="currency">Type of Currency</label>
+                <select id="currency" name="currency" >
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="jpy">JPY</option>
+                    <option value="aud">AUD</option>
+                    <option value="cad">CAD</option>
+                    <option value="chf">CHF</option>
+                    <option value="cny">CNY</option>
+                    <option value="sek">SEK</option>
+                    <option value="nzd">NZD</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="price">Aspired Price</label>
+                <input type="number" id="price" name="price">
+            </div>
+            <div class="form-group">
+                <label for="certificate">Authentication Proof (for price higher than a certain limit)</label>
+                <input type="file" id="certificate" name="certificate">
+            </div>
+            <div>
+            <button id="button" type="submit" formaction="C:\Users\sampr\OneDrive\Desktop\programming and shit\Websites practice projects\myNodeProject\upload2.html">Proceed</button>
+        </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+@media (max-width:600px) {
+
+    .main{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner{
+        width: 100%;
+        height: 40%;
+       position: absolute;
+       left: 20px;
+       background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("banner.webp");
+       text-align: center;
+       justify-content: center;
+   
+       border-radius: 20px;
+       position: absolute;
+       top: 120px;
+       left: 40px;
+       background-size: cover;
+       padding: 20px;
+       
+    }
+    .flag{
+        height: 60%;
+        width: 45%;
+        display: flex;
+        position: relative;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 65px;
+        right: 50px;
+       
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flag::before{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(255,255,255,0.15),transparent);
+        transform: skewX(45deg) translate(0);
+        transition: 0.6s ease-in infinite;
+        cursor: pointer;
+    
+    }
+    .flag:hover::before{
+        cursor: pointer;
+        transform: skewX(45deg) translate(850px);
+    }
+
+    header{
+        width: 100%;
+        height: 60px;
+        justify-content: space-between;
+         background-color: azure;
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    }
+    ul{
+        width: 50%;
+        height: 50px;
+        position: absolute;
+        left: -15px;
+        top: 30px;
+        padding: 10px;
+        display: inline-flex;
+        justify-content: space-between;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+     ul li{
+        padding: 20px;
+     }
+
+     main h1{
+        position: absolute;
+        top: 480px;
+        left: 50px;
+    }
+
+    .nike{
+        position: relative;
+        top: -120px;
+        left: -30px;
+        background-color: brown;
+        height: 150px;
+        width: 220px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        background-image: url("1-nike-logo-design-–-history-meaning-and-evolution.webp");
+        background-size: cover;
+        background-position: center;
+        backface-visibility: hidden;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    }
+    .reebok{
+        position: relative;
+        top: -500px;
+        left: -30px;
+        background-color: brown;
+        height: 150px;
+        width: 220px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        background-image: url("1-nike-logo-design-–-history-meaning-and-evolution.webp");
+        background-size: cover;
+        background-position: center;
+        backface-visibility: hidden;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    }
+    .adidas{
+        position: relative;
+        top: -120px;
+        left: -30px;
+        background-color: brown;
+        height: 150px;
+        width: 220px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        background-image: url("1-nike-logo-design-–-history-meaning-and-evolution.webp");
+        background-image: url("Adidas-logo-1991-1-600x319.png");
+        background-size: cover;
+        backface-visibility: hidden;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    }
+
+    .crocs{
+        position: relative;
+        top: -160px;
+        left: 220px;
+        background-color: brown;
+        height: 150px;
+        width: 220px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        background-image: url("crocs-logo-kerala-india-november-600nw-2386681281.webp");
+        background-size: contain;
+        backface-visibility: hidden;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    }
+    .skechers{
+        position: relative;
+        top: -80px;
+        left: 220px;
+        background-color: brown;
+        height: 150px;
+        width: 220px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        background-image: url("Skechers-logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
+        backface-visibility: hidden;
+        background-position: center;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    }
+    .dummy{
+        position: relative;
+        top: -280px;
+        left: 220px;
+        background-color: brown;
+        height: 150px;
+        width: 220px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        background-image: url("Skechers-logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
+        backface-visibility: hidden;
+        background-position: center;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    }
+}

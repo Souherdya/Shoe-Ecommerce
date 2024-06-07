@@ -1,0 +1,333 @@
+*{
+    margin: 0%;
+    
+}
+
+    
+
+h1{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+    background-color: azure;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+ul li{
+    display: inline-block;
+    padding: 10px 30px ;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#shopa{
+    text-decoration: none;
+    color: black;
+}
+#homa{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    width: 100%;
+    height: 570px;
+    background-color:black ;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    background-size: contain;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Static_files/banner.webp");
+    text-align: center;
+
+}
+.image-box video{
+    padding: 0;
+
+    width: 100%;
+    height: 550px;
+    
+    
+}
+#home{
+    border-bottom: 2px solid black;
+}
+.flag{
+    height: 350px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+     -webkit-backdrop-filter: blur(3px);
+     backdrop-filter: blur(3px);
+    border-radius: 20px;
+    background-image: url("./Static_files/jordan_1-removebg-preview.png");
+    background-size: 100%;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+   
+}
+#brands ul{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 70px;
+    
+}
+
+.brands{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    top: 780px;
+    left: 30px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    
+}
+.nike{
+    
+    top: 70px;
+    
+    background-color: brown;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 1s ease;
+    background-image: url("./Static_files/1-nike-logo-design-–-history-meaning-and-evolution.webp");
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    
+}
+.reebok{
+        top: -270px;
+    background-color: brown;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 1s ease;
+    background-image: url("./Static_files/1-nike-logo-design-–-history-meaning-and-evolution.webp");
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.crocs{
+    
+    
+    left: 370px;
+    background-color: brown;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 1s ease;
+    background-image: url("./Static_files/crocs-logo-kerala-india-november-600nw-2386681281.webp");
+    background-size: contain;
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.dummy{
+    
+    top: -340px;
+    left: 370px;
+    background-color: brown;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 1s ease;
+    background-image: url("./Static_files/crocs-logo-kerala-india-november-600nw-2386681281.webp");
+    background-size: contain;
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.skechers{
+    
+    top: -300px;
+    left: 740px;
+    background-color: brown;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 1s ease;
+    background-image: url("./Static_files/Skechers-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    backface-visibility: hidden;
+    background-position: center;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.adidas{
+    
+    top: -350px;
+    left: 1110px;
+   background-repeat: no-repeat;
+   background-position: center;
+    background-color: brown;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 1s ease;
+    background-image: url("./Static_files/Adidas-logo-1991-1-600x319.png");
+    background-size: cover;
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.adidas:hover,
+.crocs:hover,
+.nike:hover,
+.skechers:hover,
+.reebok:hover,
+.dummy:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.flag{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red(255,255,255,0.05);
+    color: aliceblue;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 15px 15px black(0,0,0,0.2);
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    z-index:1;
+    transition: 0.5s;
+}
+.flag::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -420px;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0.15),transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+.flag:hover::before{
+    cursor: pointer;
+    transform: skewX(45deg) translate(850px);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 1250px;
+    max-width: 1500px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+
+}
+#uploada{
+   text-decoration: none;
+    color: black;
+}
+
+.image-box {
+    background-color: black;
+    height: 550px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container p{
+    padding-top: 60px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+}
+
+
+.grid-container {
+    position: relative;
+    top: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.grid-item1,.grid-item2,.grid-item3,.grid-item4 {
+    background-color: #e0e0e0;
+    height: 400px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.grid-item1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 1s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Static_files/images\ \(1\).jpeg");
+}
+.grid-item2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 1s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Static_files/images.jpeg");
+}
+.grid-item3{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 1s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Static_files/basketball.jpg");
+}
+.grid-item4{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Static_files/running.jpeg");
+}
+.grid-item1:hover,
+.grid-item2:hover,
+.grid-item3:hover,
+.grid-item4:hover{
+    transform: scale(1.1);
+} 
+
